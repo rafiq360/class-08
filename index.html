@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 08 protfolio responsive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-area">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html"><h1>john Deo</h1></a>
+                </div>
+                <div class="menu-icon" onclick="menuFunction()">
+                    <div class="icon"><img src="img/icon.png" alt=""></div>
+                </div>
+                <nav class="main-menu" id="main-menu">
+                    <a href="index.html">Home</a>
+                    <a href="#about-area">About</a>
+                    <a href="#service-area">Services</a>
+                    <a href="#form-area">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main-area">
+        <section class="hero-area">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>i'm john deo</h1>
+                        <p>front-end web development expert</p>
+                        <a class="them-button" href="#">contact me</a>
+                    </div>
+                    <div class="hero-img"><img src="img/avatar.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section class="about-area" id="about-area">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-img">
+                        <img src="img/about.png" alt="">
+                    </div>
+                    <div class="about-text">
+                        <h1>more about me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo esse dolor. Suscipit eos sint laborum repellat laboriosam dolor? Alias, eveniet culpa reprehenderit sequi dignissimos blanditiis? Distinctio nulla quas hic.</p>
+                        <a class="them-button" href="#">download resum</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service-area" id="service-area">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>services</h3>
+                    <h1>what i do</h1>
+                </div>
+                <div class="service-content">
+                    <div class="single-service">
+                        <h1>website desing</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illum placeat ipsam? Voluptas blanditiis quia illo labore perspiciatis aspernatur non unde enim porro deserunt fugit, autem perferendis, sint repudiandae fuga!</p>
+                        <a class="them-button-small" href="#">learn More</a>
+                       </div>
+                       <div class="single-service">
+                        <h1>website desing</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illum placeat ipsam? Voluptas blanditiis quia illo labore perspiciatis aspernatur non unde enim porro deserunt fugit, autem perferendis, sint repudiandae fuga!</p>
+                        <a class="them-button-small" href="#">learn More</a>
+                       </div>
+                       <div class="single-service">
+                        <h1>website desing</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illum placeat ipsam? Voluptas blanditiis quia illo labore perspiciatis aspernatur non unde enim porro deserunt fugit, autem perferendis, sint repudiandae fuga!</p>
+                        <a class="them-button-small" href="#">learn More</a>
+                       </div>
+                       <div class="single-service">
+                        <h1>website desing</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illum placeat ipsam? Voluptas blanditiis quia illo labore perspiciatis aspernatur non unde enim porro deserunt fugit, autem perferendis, sint repudiandae fuga!</p>
+                        <a class="them-button-small" href="#">learn More</a>
+                       </div>
+                       <div class="single-service">
+                        <h1>website desing</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illum placeat ipsam? Voluptas blanditiis quia illo labore perspiciatis aspernatur non unde enim porro deserunt fugit, autem perferendis, sint repudiandae fuga!</p>
+                        <a class="them-button-small" href="#">learn More</a>
+                       </div>
+                       <div class="single-service">
+                        <h1>website desing</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illum placeat ipsam? Voluptas blanditiis quia illo labore perspiciatis aspernatur non unde enim porro deserunt fugit, autem perferendis, sint repudiandae fuga!</p>
+                        <a class="them-button-small" href="#">learn More</a>
+                       </div>
+                </div>
+            </div>
+        </section>
+        <section class="form-area" id="form-area">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>contact</h3>
+                    <h1>feel free to contact</h1>
+                </div>
+                <div class="contact-content">
+                    <form class="contact-form" action="">
+                        <input type="text" placeholder="First Name" id="First-Name">
+                        <input type="text" placeholder="Last Name" id="Last-Name">
+                        <input type="email" placeholder="Email Address" id="Email">
+                        <input type="number" placeholder="Phone Number" id="Number">
+                        <textarea placeholder="Message" id="sms"  rows="5"></textarea>
+                        <input type="submit" value="Send Message" id="send-sms">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-area">
+        <div class="container">
+             <p>&copy;John Deo 2023, All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script>
+        function menuFunction(){
+            var menu = document.getElementById("main-menu");
+            menu.classList.toggle("show-menu");
+        }
+    </script>
+</body>
+</html>
